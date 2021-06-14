@@ -1,0 +1,22 @@
+FORMAT
+type: ensight gold
+
+GEOMETRY
+model:   fea2d.geom
+
+VARIABLE
+scalar per node: fea2d****.s11
+scalar per node: fea2d****.s22
+scalar per node: fea2d****.s12
+scalar per node: fea2d****.svm
+scalar per node: fea2d****.e11
+scalar per node: fea2d****.e22
+scalar per node: fea2d****.e12
+
+TIME
+time set: 1
+number of steps:     1
+filename start number: 0
+filename increment: 1
+time values:
+    0.000000

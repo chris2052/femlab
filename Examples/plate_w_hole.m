@@ -27,4 +27,4 @@ fext=uniform_trac2d(eload,node,[0 100],fext);
 
 ifix=[ 2*nfixx-1; 2*nfixy ]; 
 
-fea2d_tria3
+% fea2d_tria3
